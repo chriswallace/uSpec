@@ -17,8 +17,13 @@ node_modules/
 .env.*
 *.pem
 
-# MCP config contains access tokens — template is checked in as .mcp.json
-# Users should copy .mcp.json and replace the placeholder token
+# MCP configs — may contain access tokens or internal tooling references
+# .mcp.json.bak is a template; users create .mcp.json locally
+.mcp.json
+.mcp.json.bak
+
+# Claude Code local settings — contains user-specific paths and plugins
+.claude/settings.local.json
 
 # Generated skills (created by sync-skills.sh via firstrun)
 # Only firstrun is committed — other skills are synced on demand
