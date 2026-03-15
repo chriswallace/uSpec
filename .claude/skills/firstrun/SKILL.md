@@ -90,7 +90,7 @@ Search for each of the 8 template components by name:
 Required template names (case-insensitive search):
 1. "Screen reader"
 2. "Color Annotation"
-3. "Overview"
+3. "Anatomy"
 4. "API"
 5. "Property"
 6. "Structure"
@@ -104,7 +104,7 @@ For each found component, extract its component key. The search results include 
 Build a mapping of template type to key:
 - screenReader: key from "Screen reader" component
 - colorAnnotation: key from "Color Annotation" component
-- anatomyOverview: key from "Overview" component
+- anatomyOverview: key from "Anatomy" component
 - apiOverview: key from "API" component
 - propertyOverview: key from "Property" component
 - structureSpec: key from "Structure" component
