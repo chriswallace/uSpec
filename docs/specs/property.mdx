@@ -81,6 +81,10 @@ The skill dynamically reads `componentPropertyDefinitions` from the component se
 
 ## How it works
 
+The property skill is primarily deterministic — scripts handle property extraction, template layout, and instance rendering, while AI reasoning handles normalization decisions and label generation.
+
+<Badge color="green" size="sm" shape="pill">70% Deterministic</Badge> <Badge color="purple" size="sm" shape="pill">30% AI Reasoning</Badge>
+
 ```mermaid
 flowchart LR
     A[You] -->|Figma link| B[Agent Skill]

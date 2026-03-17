@@ -17,7 +17,7 @@
 
 ## Overview
 
-uSpec generates documentation specifications for UI components. Most skills extract component data via MCP and render annotations directly in Figma using `figma_execute`. The motion skill is an exception — it reads pre-computed data from an After Effects export script rather than inspecting Figma components.
+uSpec is an AIKit that generates documentation specifications for UI components. Most skills extract component data via MCP and render annotations directly in Figma using `figma_execute`. The motion skill is an exception — it reads pre-computed data from an After Effects export script rather than inspecting Figma components.
 
 1. **Anatomy** - Numbered markers on a component instance with an attribute table
 2. **Property** - Variant axes and boolean toggles with instance previews

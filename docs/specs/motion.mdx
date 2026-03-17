@@ -101,6 +101,10 @@ Only layers with actual animation are included. The export script filters out se
 
 ## How it works
 
+The motion skill is primarily deterministic — the After Effects export script pre-computes all timing data, and rendering scripts handle layout and table generation, with AI reasoning limited to validation and error recovery.
+
+<Badge color="green" size="sm" shape="pill">75% Deterministic</Badge> <Badge color="purple" size="sm" shape="pill">25% AI Reasoning</Badge>
+
 ```mermaid
 flowchart LR
     AE[After Effects] -->|"export-timeline.jsx"| JSON[JSON data]

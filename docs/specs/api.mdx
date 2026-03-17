@@ -75,6 +75,10 @@ The agent looks at three sources in Figma to find all configurable properties:
 
 ## How it works
 
+The API skill is heavily AI-driven — the agent classifies properties, determines required vs. optional status, writes descriptions, and designs configuration examples, while deterministic scripts handle template rendering.
+
+<Badge color="green" size="sm" shape="pill">25% Deterministic</Badge> <Badge color="purple" size="sm" shape="pill">75% AI Reasoning</Badge>
+
 ```mermaid
 flowchart LR
     A[You] -->|Figma link| B[Agent Skill]
